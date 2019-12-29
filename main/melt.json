@@ -1,0 +1,312 @@
+[
+ {
+   "dcncTag": "SQ",
+   "rfc5646Tag": "sq",
+   "comments": [ "DCNC notes: Albanian" ]
+ },
+ {
+   "dcncTag": "AR",
+   "rfc5646Tag": "ar",
+   "comments": [ "DCNC notes: Arabic" ]
+ },
+ {
+   "dcncTag": "BS",
+   "rfc5646Tag": "bs",
+   "comments": [ "DCNC notes: Bosnian" ]
+ },
+ {
+   "dcncTag": "BG",
+   "rfc5646Tag": "bg",
+   "comments": [ "DCNC notes: Bulgarian" ]
+ },
+ {
+   "dcncTag": "CA",
+   "rfc5646Tag": "ca",
+   "comments": [ "DCNC notes: Catalan" ]
+ },
+ {
+   "dcncTag": "YUE",
+   "rfc5646Tag": "yue",
+   "comments": [ "DCNC notes: Chinese - Cantonese" ]
+ },
+ {
+   "dcncTag": "CMN",
+   "rfc5646Tag": "cmn",
+   "comments": [ "DCNC notes: (Audio only) - Chinese - Mandarin PRC" ]
+ },
+ {
+   "dcncTag": "QMS",
+   "rfc5646Tag": "cmn-Hans",
+   "comments": [ "DCNC notes: (Subtitles only) - Chinese - Mandarin Simplified" ]
+ },
+ {
+   "dcncTag": "QMT",
+   "rfc5646Tag": "cmn-Hant",
+   "comments": [ "DCNC notes: (Subtitles only) - Chinese - Mandarin Traditional" ]
+ },
+ {
+   "dcncTag": "NAN",
+   "rfc5646Tag": "nan",
+   "comments": [ "DCNC notes: (Audio only) - Chinese - Taiwanese" ]
+ },
+ {
+   "dcncTag": "QTM",
+   "rfc5646Tag": "cmn-TW",
+   "comments": [ "DCNC notes: (Audio only) - Chinese - Taiwanese Mandarin" ]
+ },
+ {
+   "dcncTag": "HR",
+   "rfc5646Tag": "hr",
+   "comments": [ "DCNC notes: Croatian" ]
+ },
+ {
+   "dcncTag": "CS",
+   "rfc5646Tag": "cs",
+   "comments": [ "DCNC notes: Czech" ]
+ },
+ {
+   "dcncTag": "DA",
+   "rfc5646Tag": "da",
+   "comments": [ "DCNC notes: Danish" ]
+ },
+ {
+   "dcncTag": "NL",
+   "rfc5646Tag": "nl",
+   "comments": [ "DCNC notes: Dutch" ]
+ },
+ {
+   "dcncTag": "EN",
+   "rfc5646Tag": "en",
+   "comments": [ "DCNC notes: English" ]
+ },
+ {
+   "dcncTag": "ET",
+   "rfc5646Tag": "et",
+   "comments": [ "DCNC notes: Estonian" ]
+ },
+ {
+   "dcncTag": "EU",
+   "rfc5646Tag": "eu",
+   "comments": [ "DCNC notes: Euskara" ]
+ },
+ {
+   "dcncTag": "FI",
+   "rfc5646Tag": "fi",
+   "comments": [ "DCNC notes: Finnish" ]
+ },
+ {
+   "dcncTag": "VLS",
+   "rfc5646Tag": "vls",
+   "comments": [ "DCNC notes: Flemish" ]
+ },
+ {
+   "dcncTag": "FR",
+   "rfc5646Tag": "fr",
+   "comments": [ "DCNC notes: French" ]
+ },
+ {
+   "dcncTag": "QFC",
+   "rfc5646Tag": "fr-CA",
+   "comments": [ "DCNC notes: French - Canadian" ]
+ },
+ {
+   "dcncTag": "DE",
+   "rfc5646Tag": "de",
+   "comments": [ "DCNC notes: German" ]
+ },
+ {
+   "dcncTag": "GSW",
+   "rfc5646Tag": "gsw",
+   "comments": [ "DCNC notes: German - Swiss" ]
+ },
+ {
+   "dcncTag": "EL",
+   "rfc5646Tag": "el",
+   "comments": [ "DCNC notes: Greek" ]
+ },
+ {
+   "dcncTag": "HE",
+   "rfc5646Tag": "he",
+   "comments": [ "DCNC notes: Hebrew" ]
+ },
+ {
+   "dcncTag": "HI",
+   "rfc5646Tag": "hi",
+   "comments": [ "DCNC notes: Hindi" ]
+ },
+ {
+   "dcncTag": "HU",
+   "rfc5646Tag": "hu",
+   "comments": [ "DCNC notes: Hungarian" ]
+ },
+ {
+   "dcncTag": "IS",
+   "rfc5646Tag": "is",
+   "comments": [ "DCNC notes: Icelandic" ]
+ },
+ {
+   "dcncTag": "IND",
+   "rfc5646Tag": "id",
+   "comments": [ "DCNC notes: Indonesian Bahasa" ]
+ },
+ {
+   "dcncTag": "IT",
+   "rfc5646Tag": "it",
+   "comments": [ "DCNC notes: Italian" ]
+ },
+ {
+   "dcncTag": "JA",
+   "rfc5646Tag": "ja",
+   "comments": [ "DCNC notes: Japanese" ]
+ },
+ {
+   "dcncTag": "KK",
+   "rfc5646Tag": "kk",
+   "comments": [ "DCNC notes: Kazakh" ]
+ },
+ {
+   "dcncTag": "KO",
+   "rfc5646Tag": "ko",
+   "comments": [ "DCNC notes: Korean" ]
+ },
+ {
+   "dcncTag": "KG",
+   "rfc5646Tag": "ky",
+   "comments": [ "DCNC notes: Kyrgyz" ]
+ },
+ {
+   "dcncTag": "LV",
+   "rfc5646Tag": "lv",
+   "comments": [ "DCNC notes: Latvian" ]
+ },
+ {
+   "dcncTag": "LT",
+   "rfc5646Tag": "lt",
+   "comments": [ "DCNC notes: Lithuanian" ]
+ },
+ {
+   "dcncTag": "MSA",
+   "rfc5646Tag": "ms",
+   "comments": [ "DCNC notes: Malay Bahasa" ]
+ },
+ {
+   "dcncTag": "MN",
+   "rfc5646Tag": "mn",
+   "comments": [ "DCNC notes: Mongolian" ]
+ },
+ {
+   "dcncTag": "",
+   "rfc5646Tag": "nv",
+   "comments": [ "DCNC notes: Navajo" ]
+ },
+ {
+   "dcncTag": "NO",
+   "rfc5646Tag": "no",
+   "comments": [ "DCNC notes: Norwegian" ]
+ },
+ {
+   "dcncTag": "PL",
+   "rfc5646Tag": "pl",
+   "comments": [ "DCNC notes: Polish" ]
+ },
+ {
+   "dcncTag": "QBP",
+   "rfc5646Tag": "pt-BR",
+   "comments": [ "DCNC notes: Portugese - Brazilian" ]
+ },
+ {
+   "dcncTag": "PT",
+   "rfc5646Tag": "pt",
+   "comments": [ "DCNC notes: Portugese - European" ]
+ },
+ {
+   "dcncTag": "RO",
+   "rfc5646Tag": "ro",
+   "comments": [ "DCNC notes: Romanian" ]
+ },
+ {
+   "dcncTag": "RU",
+   "rfc5646Tag": "ru",
+   "comments": [ "DCNC notes: Russian" ]
+ },
+ {
+   "dcncTag": "SR",
+   "rfc5646Tag": "sr",
+   "comments": [ "DCNC notes: Serbian" ]
+ },
+ {
+   "dcncTag": "SK",
+   "rfc5646Tag": "sk",
+   "comments": [ "DCNC notes: Slovak" ]
+ },
+ {
+   "dcncTag": "SL",
+   "rfc5646Tag": "sl",
+   "comments": [ "DCNC notes: Slovenian" ]
+ },
+ {
+   "dcncTag": "QSA",
+   "rfc5646Tag": "es-AR",
+   "comments": [ "DCNC notes: Spanish - Argentina" ]
+ },
+ {
+   "dcncTag": "ES",
+   "rfc5646Tag": "es",
+   "comments": [ "DCNC notes: Spanish - Castilian" ]
+ },
+ {
+   "dcncTag": "LAS",
+   "rfc5646Tag": "es-419",
+   "comments": [ "DCNC notes: Spanish - Latin America" ]
+ },
+ {
+   "dcncTag": "QSM",
+   "rfc5646Tag": "es-MX",
+   "comments": [ "DCNC notes: Spanish - Mexican" ]
+ },
+ {
+   "dcncTag": "SV",
+   "rfc5646Tag": "sv",
+   "comments": [ "DCNC notes: Swedish" ]
+ },
+ {
+   "dcncTag": "TA",
+   "rfc5646Tag": "ta",
+   "comments": [ "DCNC notes: Tamil" ]
+ },
+ {
+   "dcncTag": "TE",
+   "rfc5646Tag": "te",
+   "comments": [ "DCNC notes: Telugu" ]
+ },
+ {
+   "dcncTag": "TH",
+   "rfc5646Tag": "th",
+   "comments": [ "DCNC notes: Thai" ]
+ },
+ {
+   "dcncTag": "TR",
+   "rfc5646Tag": "tr",
+   "comments": [ "DCNC notes: Turkish" ]
+ },
+ {
+   "dcncTag": "UK",
+   "rfc5646Tag": "uk",
+   "comments": [ "DCNC notes: Ukranian" ]
+ },
+ {
+   "dcncTag": "UR",
+   "rfc5646Tag": "ur",
+   "comments": [ "DCNC notes: Urdu" ]
+ },
+ {
+   "dcncTag": "VI",
+   "rfc5646Tag": "vi",
+   "comments": [ "DCNC notes: Vietnamese" ]
+ },
+ {
+   "dcncTag": "WEL",
+   "rfc5646Tag": "cy",
+   "comments": [ "DCNC notes: Welsh" ]
+ }
+]

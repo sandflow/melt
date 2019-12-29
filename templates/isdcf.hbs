@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>ISDCF Language Tags</title>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">ISDCF Language Tags</a>
+  </nav>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Language</th>
+        <th scope="col">RFC 5646 Language Tag</th>
+        <th scope="col">Naming Convention Language Code</th>
+        <th scope="col">CLDR Locale</th>
+        <th scope="col">Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#melt}}
+      <tr>
+        <td>{{displayName}}</td>
+        <td>
+          <pre>{{rfc5646Tag}}</pre>
+        </td>
+        <td>
+          {{#if dcncTag}}
+          <pre>{{dcncTag}}</pre>
+          {{else}}
+          <em>None</em>
+          {{/if}}
+        </td>
+        <td>
+          <pre>{{cldrLocale}}</pre>
+        </td>
+        <td>
+          {{#comments}}
+          <p>{{this}}</p>
+          {{/comments}}
+        </td>
+      </tr>
+      {{/melt}}
+    </tbody>
+  </table>
+</body>
+
+</html>

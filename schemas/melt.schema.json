@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "http://www.sandflow.com/ns/melt/1.0.0-beta.1",
+  "$comment": "Copyright 2019, Pierre-Anthony Lemieux <pal@palemieux.com>",
+  "title": "Schema for the Media and Entertainment Language Tags",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "rfc5646Tag": {
+        "type": "string"
+      },
+      "dcncTag": {
+        "type": "string"
+      },
+      "comments": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "rfc5646Tag"
+    ],
+    "additionalProperties": false
+  }
+}

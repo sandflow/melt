@@ -1,0 +1,16 @@
+language: node_js
+
+node_js:
+  - node
+
+script:
+  - npm run test
+  - npm run build
+
+deploy:
+  provider: pages
+  local_dir: build
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
