@@ -98,6 +98,27 @@ for(let i in melt) {
 
 }
 
+/* build isdcfUse field */
+
+for(let i in melt) {
+
+  melt[i].isdcfUse = [];
+
+  for(let j in melt[i].use) {
+    switch (melt[i].use[j]) {
+      case 'audio':
+        melt[i].isdcfUse.push("Audio");
+        break;
+      case 'text' :
+        melt[i].isdcfUse.push("Subtitles");
+        break;
+    }
+
+  }
+
+}
+
+
 /* apply template */
 
 var page = template({ "melt": melt });

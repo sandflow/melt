@@ -20,6 +20,7 @@
         <th scope="col">Language</th>
         <th scope="col">RFC 5646 Language Tag</th>
         <th scope="col">DCNC Language Code</th>
+        <th scope="col">Use</th>
         <th scope="col">CLDR Locale</th>
         <th scope="col">Notes</th>
       </tr>
@@ -37,6 +38,11 @@
           {{else}}
           <em>None</em>
           {{/if}}
+        </td>
+        <td>
+          {{#isdcfUse}}
+            <p class="badge badge-secondary">{{this}}</p>
+          {{/isdcfUse}}
         </td>
         <td>
           <pre>{{cldrLocale}}</pre>
