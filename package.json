@@ -12,6 +12,7 @@
     "ajv": "^6.10.2",
     "cldr-core": "^36.0.0",
     "cldr-localenames-modern": "^36.0.0",
-    "handlebars": "^4.5.3"
+    "handlebars": "^4.5.3",
+    "puppeteer": "^2.0.0"
   }
 }

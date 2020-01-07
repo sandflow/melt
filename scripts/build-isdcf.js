@@ -25,11 +25,16 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 const hb = require('handlebars');
 const fs = require('fs');
-const utils = require('./utilities.js')
+const path = require('path');
+const utils = require('./utilities.js');
+const puppeteer = require('puppeteer');
+
 
 const MELT_PATH = "main/melt.json";
+const BUILD_PATH = "build";
 const TEMPLATE_PATH = "templates/isdcf.hbs";
-const PAGE_PATH = "build/isdcf.html";
+const PAGE_SITE_PATH = "isdcf.html";
+const PDF_SITE_PATH = "isdcf-language-codes.pdf";
 const DISPLAYNAMES_PATH = "node_modules/cldr-localenames-modern/main/en/languages.json";
 
 /* instantiate template */
@@ -41,7 +46,7 @@ let template = hb.compile(
   )
 );
 
-if (! template) {
+if (!template) {
   throw "Cannot load HTML template";
 }
 
@@ -53,7 +58,7 @@ let melt = JSON.parse(
   )
 );
 
-if (! melt) {
+if (!melt) {
   throw "Cannot load MELT table";
 }
 
@@ -65,13 +70,13 @@ let displayNames = JSON.parse(
   )
 );
 
-if (! displayNames) {
+if (!displayNames) {
   throw "Cannot load CLDR display names";
 }
 
 /* build display name */
 
-for(let i in melt) {
+for (let i in melt) {
   let langtag = melt[i]["rfc5646Tag"];
 
   let ptag = utils.parseLanguageTag(langtag);
@@ -84,13 +89,13 @@ for(let i in melt) {
 
   /* CLDR locale */
 
-    melt[i].cldrLocale = utils.fromParsedTagToCanonicalTag(locale);
+  melt[i].cldrLocale = utils.fromParsedTagToCanonicalTag(locale);
 
   /* add display name */
 
   let dn = utils.buildDisplayName(locale);
 
-  if (! dn) {
+  if (!dn) {
     throw "Invalid language tag: " + langtag;
   }
 
@@ -100,16 +105,16 @@ for(let i in melt) {
 
 /* build isdcfUse field */
 
-for(let i in melt) {
+for (let i in melt) {
 
   melt[i].isdcfUse = [];
 
-  for(let j in melt[i].use) {
+  for (let j in melt[i].use) {
     switch (melt[i].use[j]) {
       case 'audio':
         melt[i].isdcfUse.push("Audio");
         break;
-      case 'text' :
+      case 'text':
         melt[i].isdcfUse.push("Subtitles");
         break;
     }
@@ -118,13 +123,33 @@ for(let i in melt) {
 
 }
 
+/* create build directory */
+
+fs.mkdirSync(BUILD_PATH, { recursive: true });
 
 /* apply template */
 
-var page = template({ "melt": melt });
+var html = template({ "melt": melt, "pdf_path": PDF_SITE_PATH });
 
-/* write file */
+/* write HTML file */
 
-fs.mkdirSync("build", { recursive: true });
+fs.writeFileSync(path.join(BUILD_PATH, PAGE_SITE_PATH), html, 'utf8');
 
-fs.writeFileSync(PAGE_PATH, page, 'utf8');
+/* write pdf */
+
+/* set the CHROMEPATH environment variable to provide your own Chrome executable */
+
+var pptr_options = {};
+
+if (process.env.CHROMEPATH) {
+  pptr_options.executablePath = process.env.CHROMEPATH;
+}
+
+(async () => {
+  const browser = await puppeteer.launch(pptr_options);
+  const page = await browser.newPage();
+  await page.setContent(html);
+  await page.pdf({ path: path.join(BUILD_PATH, PDF_SITE_PATH).toString() })
+  await browser.close();
+})();
+
