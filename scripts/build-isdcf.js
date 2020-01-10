@@ -35,6 +35,7 @@ const BUILD_PATH = "build";
 const TEMPLATE_PATH = "templates/isdcf.hbs";
 const PAGE_SITE_PATH = "isdcf.html";
 const PDF_SITE_PATH = "isdcf-language-codes.pdf";
+const JSON_SITE_PATH = "isdcf-language-codes.json";
 const DISPLAYNAMES_PATH = "node_modules/cldr-localenames-modern/main/en/languages.json";
 
 /* instantiate template */
@@ -129,11 +130,23 @@ fs.mkdirSync(BUILD_PATH, { recursive: true });
 
 /* apply template */
 
-var html = template({ "melt": melt, "pdf_path": PDF_SITE_PATH });
+var html = template({
+  "melt": melt,
+  "pdf_path": PDF_SITE_PATH,
+  "json_path": JSON_SITE_PATH
+});
 
 /* write HTML file */
 
 fs.writeFileSync(path.join(BUILD_PATH, PAGE_SITE_PATH), html, 'utf8');
+
+/* write JSON */
+
+fs.writeFileSync(
+  path.join(BUILD_PATH, JSON_SITE_PATH),
+  JSON.stringify(melt, null, "  "),
+  'utf8'
+);
 
 /* write pdf */
 
