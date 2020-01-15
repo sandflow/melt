@@ -205,7 +205,7 @@
   },
   {
     "dcncTag": "VLS",
-    "rfc5646Tag": "vls",
+    "rfc5646Tag": "nl-BLG",
     "use": [
       "audio",
       "text"
