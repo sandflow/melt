@@ -28,6 +28,7 @@ const fs = require('fs');
 const path = require('path');
 const utils = require('./utilities.js');
 const puppeteer = require('puppeteer');
+const proc = require('child_process');
 
 
 const MELT_PATH = "main/melt.json";
@@ -124,6 +125,15 @@ for (let i in melt) {
 
 }
 
+/* get the version field */
+
+let version = proc.execSync('git rev-parse HEAD').toString().trim();
+
+let json_data = {
+  "version" : version,
+  "data" : melt
+};
+
 /* create build directory */
 
 fs.mkdirSync(BUILD_PATH, { recursive: true });
@@ -131,7 +141,7 @@ fs.mkdirSync(BUILD_PATH, { recursive: true });
 /* apply template */
 
 var html = template({
-  "melt": melt,
+  "melt": json_data,
   "pdf_path": PDF_SITE_PATH,
   "json_path": JSON_SITE_PATH
 });
@@ -144,7 +154,7 @@ fs.writeFileSync(path.join(BUILD_PATH, PAGE_SITE_PATH), html, 'utf8');
 
 fs.writeFileSync(
   path.join(BUILD_PATH, JSON_SITE_PATH),
-  JSON.stringify(melt, null, "  "),
+  JSON.stringify(json_data, null, "  "),
   'utf8'
 );
 
