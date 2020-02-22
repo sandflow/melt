@@ -1,0 +1,1049 @@
+{
+  "version": "fbf5a73adaf7da5ffadf3bf55754845af5fbb1ba",
+  "data": [
+    {
+      "dcncTag": "SQ",
+      "rfc5646Tag": "sq",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Albanian"
+      ],
+      "cldrLocale": "sq",
+      "displayName": "Albanian",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "AR",
+      "rfc5646Tag": "ar",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Arabic"
+      ],
+      "cldrLocale": "ar",
+      "displayName": "Arabic",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "BS",
+      "rfc5646Tag": "bs",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Bosnian"
+      ],
+      "cldrLocale": "bs",
+      "displayName": "Bosnian",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "BG",
+      "rfc5646Tag": "bg",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Bulgarian"
+      ],
+      "cldrLocale": "bg",
+      "displayName": "Bulgarian",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "CA",
+      "rfc5646Tag": "ca",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Catalan"
+      ],
+      "cldrLocale": "ca",
+      "displayName": "Catalan",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "YUE",
+      "rfc5646Tag": "yue",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Chinese - Cantonese"
+      ],
+      "cldrLocale": "yue",
+      "displayName": "Cantonese",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "CMN",
+      "rfc5646Tag": "cmn",
+      "use": [
+        "audio"
+      ],
+      "comments": [
+        "DCNC notes: (Audio only) - Chinese - Mandarin PRC"
+      ],
+      "cldrLocale": "zh",
+      "displayName": "Chinese",
+      "isdcfUse": [
+        "Audio"
+      ]
+    },
+    {
+      "dcncTag": "QMS",
+      "rfc5646Tag": "cmn-Hans",
+      "use": [
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: (Subtitles only) - Chinese - Mandarin Simplified"
+      ],
+      "cldrLocale": "zh-Hans",
+      "displayName": "Simplified Chinese",
+      "isdcfUse": [
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "QMT",
+      "rfc5646Tag": "cmn-Hant",
+      "use": [
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: (Subtitles only) - Chinese - Mandarin Traditional"
+      ],
+      "cldrLocale": "zh-Hant",
+      "displayName": "Traditional Chinese",
+      "isdcfUse": [
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "NAN",
+      "rfc5646Tag": "nan",
+      "use": [
+        "audio"
+      ],
+      "comments": [
+        "DCNC notes: (Audio only) - Chinese - Taiwanese"
+      ],
+      "cldrLocale": "nan",
+      "displayName": "Min Nan Chinese",
+      "isdcfUse": [
+        "Audio"
+      ]
+    },
+    {
+      "dcncTag": "QTM",
+      "rfc5646Tag": "cmn-TW",
+      "use": [
+        "audio"
+      ],
+      "comments": [
+        "DCNC notes: (Audio only) - Chinese - Taiwanese Mandarin"
+      ],
+      "cldrLocale": "zh-TW",
+      "displayName": "Chinese (Taiwan)",
+      "isdcfUse": [
+        "Audio"
+      ]
+    },
+    {
+      "dcncTag": "HR",
+      "rfc5646Tag": "hr",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Croatian"
+      ],
+      "cldrLocale": "hr",
+      "displayName": "Croatian",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "CS",
+      "rfc5646Tag": "cs",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Czech"
+      ],
+      "cldrLocale": "cs",
+      "displayName": "Czech",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "DA",
+      "rfc5646Tag": "da",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Danish"
+      ],
+      "cldrLocale": "da",
+      "displayName": "Danish",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "NL",
+      "rfc5646Tag": "nl",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Dutch"
+      ],
+      "cldrLocale": "nl",
+      "displayName": "Dutch",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "EN",
+      "rfc5646Tag": "en",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: English"
+      ],
+      "cldrLocale": "en",
+      "displayName": "English",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "ET",
+      "rfc5646Tag": "et",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Estonian"
+      ],
+      "cldrLocale": "et",
+      "displayName": "Estonian",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "EU",
+      "rfc5646Tag": "eu",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Euskara"
+      ],
+      "cldrLocale": "eu",
+      "displayName": "Basque",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "FI",
+      "rfc5646Tag": "fi",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Finnish"
+      ],
+      "cldrLocale": "fi",
+      "displayName": "Finnish",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "VLS",
+      "rfc5646Tag": "nl-BE",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Flemish"
+      ],
+      "cldrLocale": "nl-BE",
+      "displayName": "Flemish",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "FR",
+      "rfc5646Tag": "fr",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: French"
+      ],
+      "cldrLocale": "fr",
+      "displayName": "French",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "QFC",
+      "rfc5646Tag": "fr-CA",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: French - Canadian"
+      ],
+      "cldrLocale": "fr-CA",
+      "displayName": "Canadian French",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "DE",
+      "rfc5646Tag": "de",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: German"
+      ],
+      "cldrLocale": "de",
+      "displayName": "German",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "GSW",
+      "rfc5646Tag": "gsw",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: German - Swiss"
+      ],
+      "cldrLocale": "gsw",
+      "displayName": "Swiss German",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "EL",
+      "rfc5646Tag": "el",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Greek"
+      ],
+      "cldrLocale": "el",
+      "displayName": "Greek",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "HE",
+      "rfc5646Tag": "he",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Hebrew"
+      ],
+      "cldrLocale": "he",
+      "displayName": "Hebrew",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "HI",
+      "rfc5646Tag": "hi",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Hindi"
+      ],
+      "cldrLocale": "hi",
+      "displayName": "Hindi",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "HU",
+      "rfc5646Tag": "hu",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Hungarian"
+      ],
+      "cldrLocale": "hu",
+      "displayName": "Hungarian",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "IS",
+      "rfc5646Tag": "is",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Icelandic"
+      ],
+      "cldrLocale": "is",
+      "displayName": "Icelandic",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "IND",
+      "rfc5646Tag": "id",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Indonesian Bahasa"
+      ],
+      "cldrLocale": "id",
+      "displayName": "Indonesian",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "IT",
+      "rfc5646Tag": "it",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Italian"
+      ],
+      "cldrLocale": "it",
+      "displayName": "Italian",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "JA",
+      "rfc5646Tag": "ja",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Japanese"
+      ],
+      "cldrLocale": "ja",
+      "displayName": "Japanese",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "KK",
+      "rfc5646Tag": "kk",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Kazakh"
+      ],
+      "cldrLocale": "kk",
+      "displayName": "Kazakh",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "KO",
+      "rfc5646Tag": "ko",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Korean"
+      ],
+      "cldrLocale": "ko",
+      "displayName": "Korean",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "KG",
+      "rfc5646Tag": "ky",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Kyrgyz"
+      ],
+      "cldrLocale": "ky",
+      "displayName": "Kyrgyz",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "LV",
+      "rfc5646Tag": "lv",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Latvian"
+      ],
+      "cldrLocale": "lv",
+      "displayName": "Latvian",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "LT",
+      "rfc5646Tag": "lt",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Lithuanian"
+      ],
+      "cldrLocale": "lt",
+      "displayName": "Lithuanian",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "MSA",
+      "rfc5646Tag": "ms",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Malay Bahasa"
+      ],
+      "cldrLocale": "ms",
+      "displayName": "Malay",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "MN",
+      "rfc5646Tag": "mn",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Mongolian"
+      ],
+      "cldrLocale": "mn",
+      "displayName": "Mongolian",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "",
+      "rfc5646Tag": "nv",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Navajo"
+      ],
+      "cldrLocale": "nv",
+      "displayName": "Navajo",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "NO",
+      "rfc5646Tag": "no",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Norwegian"
+      ],
+      "cldrLocale": "nb",
+      "displayName": "Norwegian Bokmål",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "PL",
+      "rfc5646Tag": "pl",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Polish"
+      ],
+      "cldrLocale": "pl",
+      "displayName": "Polish",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "QBP",
+      "rfc5646Tag": "pt-BR",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Portugese - Brazilian"
+      ],
+      "cldrLocale": "pt-BR",
+      "displayName": "Brazilian Portuguese",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "PT",
+      "rfc5646Tag": "pt",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Portugese - European"
+      ],
+      "cldrLocale": "pt",
+      "displayName": "Portuguese",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "RO",
+      "rfc5646Tag": "ro",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Romanian"
+      ],
+      "cldrLocale": "ro",
+      "displayName": "Romanian",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "RU",
+      "rfc5646Tag": "ru",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Russian"
+      ],
+      "cldrLocale": "ru",
+      "displayName": "Russian",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "SR",
+      "rfc5646Tag": "sr",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Serbian"
+      ],
+      "cldrLocale": "sr",
+      "displayName": "Serbian",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "SK",
+      "rfc5646Tag": "sk",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Slovak"
+      ],
+      "cldrLocale": "sk",
+      "displayName": "Slovak",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "SL",
+      "rfc5646Tag": "sl",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Slovenian"
+      ],
+      "cldrLocale": "sl",
+      "displayName": "Slovenian",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "QSA",
+      "rfc5646Tag": "es-AR",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Spanish - Argentina"
+      ],
+      "cldrLocale": "es-AR",
+      "displayName": "Spanish (Argentina)",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "ES",
+      "rfc5646Tag": "es",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Spanish - Castilian"
+      ],
+      "cldrLocale": "es",
+      "displayName": "Spanish",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "LAS",
+      "rfc5646Tag": "es-419",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Spanish - Latin America"
+      ],
+      "cldrLocale": "es-419",
+      "displayName": "Latin American Spanish",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "QSM",
+      "rfc5646Tag": "es-MX",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Spanish - Mexican"
+      ],
+      "cldrLocale": "es-MX",
+      "displayName": "Mexican Spanish",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "SV",
+      "rfc5646Tag": "sv",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Swedish"
+      ],
+      "cldrLocale": "sv",
+      "displayName": "Swedish",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "TA",
+      "rfc5646Tag": "ta",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Tamil"
+      ],
+      "cldrLocale": "ta",
+      "displayName": "Tamil",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "TE",
+      "rfc5646Tag": "te",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Telugu"
+      ],
+      "cldrLocale": "te",
+      "displayName": "Telugu",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "TH",
+      "rfc5646Tag": "th",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Thai"
+      ],
+      "cldrLocale": "th",
+      "displayName": "Thai",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "TR",
+      "rfc5646Tag": "tr",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Turkish"
+      ],
+      "cldrLocale": "tr",
+      "displayName": "Turkish",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "UK",
+      "rfc5646Tag": "uk",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Ukranian"
+      ],
+      "cldrLocale": "uk",
+      "displayName": "Ukrainian",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "UR",
+      "rfc5646Tag": "ur",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Urdu"
+      ],
+      "cldrLocale": "ur",
+      "displayName": "Urdu",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "VI",
+      "rfc5646Tag": "vi",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Vietnamese"
+      ],
+      "cldrLocale": "vi",
+      "displayName": "Vietnamese",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    },
+    {
+      "dcncTag": "WEL",
+      "rfc5646Tag": "cy",
+      "use": [
+        "audio",
+        "text"
+      ],
+      "comments": [
+        "DCNC notes: Welsh"
+      ],
+      "cldrLocale": "cy",
+      "displayName": "Welsh",
+      "isdcfUse": [
+        "Audio",
+        "Subtitles"
+      ]
+    }
+  ]
+}
