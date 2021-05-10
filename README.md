@@ -8,3 +8,5 @@ The registry is at `main/melt.json`.
 The scripts to validate and render the registry are under `scripts`.
 
 A sample rendering of the registry, generated automatically from the `master` branch is at <https://sandflow.github.io/melt/isdcf.html>.
+
+**ARCHIVED. DO NOT USE. THE WORK HAS MOVED TO https://github.com/ISDCF/registries.*
